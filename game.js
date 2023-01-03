@@ -24,6 +24,14 @@ $(document).keypress(function()
     started=true;
   }
 })
+$("button").click(function()
+{
+  if(!started)
+  {
+    nextSequence();
+    started=true;
+  }
+})
 
 
 
